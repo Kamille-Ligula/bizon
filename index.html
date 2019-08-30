@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bizon index</title>
+		<script>
+			function launcher(language) {
+				localStorage.setItem("language", language);
+				window.open("bizon.html", "name", 'width=1024, height=576');
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<!--<body onload="launcher('english')">-->
+	<body>
+		<!--<span id="click" onclick="launcher('english')">-->
+		<img src="img/icon 4040.png" width="80" height="80">
+		<p/>Please select your language:
+		<!--</span>-->
+
+		<div class="button" onclick="launcher('language1')">English</div>
+		<div class="button" onclick="launcher('language2')">Français</div>
+		<div class="button" onclick="launcher('language3')">中文（繁體）</div>
+	</body>
+</html>

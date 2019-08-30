@@ -1,0 +1,35 @@
+body {
+	background-image: url("img/background.png");
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	font-size: 24px; 
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.button {
+	background-color: grey;
+	color: white;
+	padding: 14px;
+	min-width: 140px;
+	font-size: 20px;
+	border: none;
+	position: relative;
+	display: inline-block;
+	border-radius: 8px;
+	border: 2px solid #000000;
+}
+
+.button:hover {
+	background-color: #2B871B;
+	color: black;
+}
