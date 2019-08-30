@@ -1,0 +1,22 @@
+body {
+	background-image: url("img/background.png");
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+canvas {
+	position: absolute;
+	top: 10;
+	left: 10;
+	
+	/*
+	border:1px solid #d3d3d3;
+	*/
+	
+	background-image: url("img/grid.png");
+	background-size: 100% 100%;
+}
