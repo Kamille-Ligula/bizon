@@ -1,3 +1,7 @@
+/*======================================================================================\\
+|| 						2019, Samuel Luc (aka Kamille Ligula)							||
+\\======================================================================================*/
+
 body {
 	background-image: url("img/background.png");
 	background-attachment: fixed;
@@ -32,4 +36,13 @@ body {
 .button:hover {
 	background-color: #2B871B;
 	color: black;
+}
+
+footer {
+	border-radius: 8px;
+	text-align: center;
+	font-size: 12px; 
+	padding: 2px;
+	background-color: #7E9A7E;
+	color: #000000;
 }
