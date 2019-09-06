@@ -25,6 +25,7 @@ body {
 	color: white;
 	padding: 14px;
 	min-width: 140px;
+	min-height: 25px;
 	font-size: 20px;
 	border: none;
 	position: relative;
